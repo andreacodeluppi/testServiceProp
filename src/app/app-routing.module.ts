@@ -1,7 +1,10 @@
+import { ParentComponent } from './parent/parent.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path: 'app-parent', component: ParentComponent },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
